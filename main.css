@@ -1,0 +1,236 @@
+@font-face{
+    font-family: "Steam Punk Flyer";
+    src: url(polices/Steam Punk Flyer.ttf) format("truetype");
+}
+
+#font-face{
+    font-family: "The Goldsmith_Vinatge";
+    src: url(polices/The%20Goldsmith_Vintage.ttf) format("truetype");
+}
+body{
+    margin: auto;
+    background-image: url(images/wp2044775.jpg);
+    margin-top: 10%;
+    min-width: 750px;
+}
+
+#logo{
+    width: 200px;
+    height: 200px;
+}
+
+header{
+    background-image: url(images/wood-13-transparent-900px.png);
+    background-size: contain;
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image-source: url(images/Gold-Border-Frame.png);
+    border-image-repeat: round;
+    border-image-slice: 30;
+    border-image-width: 10px;
+}
+
+header h1{
+    font-size: 60px;
+    font-family: "Steam Punk Flyer", Impact, serif;
+    color: #f2e394;
+    text-shadow: 2px 2px 2px black;
+    margin: auto;
+}
+
+#navbarSupportedContent ul li{
+    background-image: url(images/placa-png-6-transparent.png);
+    background-size: contain;
+    width: 160px;
+    height: 65px;
+    font-size: 22px;
+}
+
+#navbarSupportedContent a{
+    color: darkred;
+    text-shadow: 0.5px 0.5px 0.5px darksalmon;
+    font-family: Georgia, serif;
+}
+
+.dropdown-menu{
+    background-color: transparent;
+    border-style: hidden;
+}
+
+.dropdown-menu :hover{
+    background-color: transparent;
+    border-style: hidden;
+}
+.dropdown-menu a{
+    background-image: url(images/placa-png-6-transparent.png);
+    background-size: contain;
+    width: 160px;
+    height: 70px;
+    font-size: 22px;
+}
+
+#carouselExampleIndicators{
+    background-color: black;
+    background-clip: padding-box;
+    height: auto;
+    border: 20px solid transparent;
+    padding: 15px;
+    border-image-source: url(images/frame-3-transparent.png);
+    border-image-repeat: round;
+    border-image-slice: 60;
+    border-image-width: 20px;
+    margin-bottom: 40px;
+}
+
+#frame1{
+    background-color: black;
+    border: 20px solid transparent;
+    border-image-source: url(images/old-frame-png-12-transparent-350.png);
+    border-image-repeat: round;
+    border-image-slice: 70;
+    border-image-width: 20px;
+    border-image-outset: 0.3;
+    height: auto;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+#frame1 img{
+    width: 100%;
+    height: auto;
+}
+
+#frame2{
+    background-color: black;
+    border: 20px solid transparent;
+    border-image-source: url(images/old-frame-png-12-transparent-350.png);
+    border-image-repeat: round;
+    border-image-slice: 70;
+    border-image-width: 20px;
+    border-image-outset: 0.3;
+    height: auto;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+#frame2 img{
+    width: 100%;
+    height: auto;
+}
+
+#frame3{
+    background-color: black;
+    border: 20px solid transparent;
+    border-image-source: url(images/old-frame-png-12-transparent-350.png);
+    border-image-repeat: round;
+    border-image-slice: 70;
+    border-image-width: 20px;
+    border-image-outset: 0.3;
+    height: auto;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+#frame3 img{
+    width: 100%;
+    height: auto;
+}
+
+#frame4{
+    background-color: black;
+    background-clip: padding-box;
+    border: 20px solid transparent;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-image-source: url(images/frame-3-transparent.png);
+    border-image-repeat: round;
+    border-image-slice: 60;
+    border-image-width: 20px;
+    height: auto;
+    color: white;
+}
+
+#photo_profil{
+    text-align: center;
+}
+#photo_profil img{
+    margin-right: 15px;
+    float: right;
+}
+
+#video{
+    text-align: center;
+    clear: both;
+    padding-top: 15px;
+}
+
+#column1{
+   
+    float: left;
+}
+
+#column2{
+
+    float: right;
+}
+
+.gallery {
+    margin-bottom: 100px;
+    border: 1px solid #ccc;
+    width: 200px;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.gallery:hover {
+    border: 1px solid #777;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.gallery_f {
+    margin:auto;
+    border: 1px solid #ccc;
+    width: 200px;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.gallery_f:hover {
+    border: 1px solid #777;
+}
+
+.gallery_f img {
+    width: 100%;
+    height: auto;
+}
+
+#welcome{
+    text-align: center;
+    font-size: 28px;
+}
+
+#address{
+    text-align: center;
+    border-bottom: 2px solid white;
+}
+
+#contact{
+    padding-top: 15px;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    color: #f2e394;
+    clear: both;
+}
